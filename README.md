@@ -1,32 +1,40 @@
-# 🏮 MoCo Lantern: Bioluminescent Civic Coordination
 
-**Sturdivant AI Lab** | World Wide Vibes Hackathon 2026  
-*Illuminating pathways through Montgomery County's social services ecosystem*
+# 🏮 MoCo Lantern: Biomimetic Geospatial Intelligence
+**Stigmergy-based Visualization & RAG-driven Policy Orchestration for Urban Resilience**
 
 ---
 
-## 🎯 The Problem
+##  Research Thesis
+MoCo Lantern explores the intersection of **Generative AI** and **Biomimetic Visualization** to solve fragmentation in municipal social service ecosystems. By applying stigmergy-based mapping—where high-demand resources "glow" based on real-time request density—the system transforms static service directories into a living, proactive intelligence framework.
 
-Montgomery County residents and frontline support staff face a critical challenge: navigating complex, ever-changing eligibility requirements across dozens of social service programs. Case managers spend hours researching SNAP, housing, and utility assistance policies while vulnerable populations encounter language barriers that delay critical support. This fragmentation creates administrative bottlenecks and leaves families waiting for help they desperately need.
+##  Key Technical Pillars
 
-## 💡 The Solution
+### **1. RAG-Driven Policy Co-Pilot**
+* **Engine:** Gemini 1.5 Flash (utilizing 1M+ token long-context window for deep policy reasoning).
+* **Vector Architecture:** ChromaDB with 768-dimensional embeddings to provide cited, verifiable eligibility guidance across complex SNAP, housing, and utility assistance datasets.
+* **Latency:** Optimized retrieval and inference to under 3 seconds.
 
-MoCo Lantern transforms social services from a fragmented model to a proactive, data-driven framework using **Generative AI and biomimetic visualization**. Our RAG-driven "Policy Co-pilot" provides instant, cited answers to eligibility questions while a bioluminescent map interface reveals resource patterns through stigmergy-based visualization—where high-demand services "glow" like deep-sea organisms, showing real-time community needs.
+### **2. Bioluminescent Geospatial Visualization**
+* **Framework:** Pydeck (WebGL-based) integrated into Streamlit.
+* **Concept:** Implemented a "Bioluminescent Map" interface that uses cyan-node intensity to represent service demand patterns, mimicking deep-sea organism signaling to reveal administrative bottlenecks.
 
-## ✨ The Magic Moment
+### **3. Synthetic Data Engineering**
+* **Dataset:** Engineered an enhanced 50-record synthetic 311 Service Request database to test multi-field query accuracy and geospatial distribution.
 
-Watch as the map comes alive with glowing cyan nodes representing Montgomery County resources. Ask "Does Progress Place have a food pantry?" and witness the AI instantly retrieve relevant service requests, cite official policy documents, and provide actionable guidance—all in under 3 seconds.
+##  Tech Stack & Development
+* **AI Orchestration:** Gemini 1.5 Flash, Kiro AI Assistant.
+* **Backend:** Python, ChromaDB.
+* **Frontend/GIS:** Streamlit, Pydeck (High-performance WebGL).
 
-## 🛠️ Technology Stack
+---
 
-- **LLM**: Gemini 1.5 Flash (long-context policy reasoning)
-- **Vector Database**: ChromaDB (768-dimensional embeddings)
-- **Framework**: Python + Streamlit
-- **Visualization**: Pydeck (WebGL-based bioluminescent nodes)
-- **Development**: Built with Kiro AI Assistant
-- **Data**: Synthetic Montgomery County 311 Service Requests (50 records with enhanced fields)
+##  Impact & Scalability
+While piloted with Montgomery County (MoCo) datasets, the **Stigmergy-Visualization Engine** is platform-agnostic and designed to scale across any urban environment requiring real-time resource allocation and policy transparency.
 
-## 🚀 Quick Start
+---
+> 🔗 **Part of the AI Research Portfolio of Edidiong Hector Umoh**
+> Focused on the convergence of Agentic AI, Cyber-Physical Systems, and Social Good.
+##  Quick Start
 
 ### Prerequisites
 - Python 3.10+
@@ -79,7 +87,7 @@ streamlit run src/main.py
 
 The app will open at `http://localhost:8501`
 
-## 🎨 Features
+##  Features
 
 ### Phase 1: Policy Co-pilot (RAG-Driven)
 - ✅ Instant, cited answers to SNAP/Housing/Utility eligibility questions
@@ -146,18 +154,18 @@ MoCo Lantern addresses Montgomery County's social services challenge by:
 - **Ensuring accuracy** with mandatory citation of official policies
 - **Scaling support** without proportional staff increases
 
-## 🏆 Hackathon Submission
+##  Hackathon Submission
 
 **Event**: World Wide Vibes - Montgomery County GenAI Academy Hackathon  
 **Team**: Sturdivant AI Lab  
 **Author**: Edidiong Hector Umoh  
 **Built with**: Kiro AI Assistant
 
-## 📝 License
+##  License
 
 This project is submitted for the World Wide Vibes Hackathon 2026.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Montgomery County Open Data Portal (data inspiration)
 - Google Gemini API (LLM capabilities)
