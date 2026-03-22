@@ -5,7 +5,7 @@
 ---
 
 ##  Research Thesis
-MoCo Lantern explores the intersection of **Generative AI** and **Biomimetic Visualization** to solve fragmentation in municipal social service ecosystems. By applying stigmergy-based mapping—where high-demand resources "glow" based on real-time request density—the system transforms static service directories into a living, proactive intelligence framework.
+MoCo Lantern explores the intersection of **Generative AI** and **Biomimetic Visualization** to solve fragmentation in municipal social service ecosystems. By applying stigmergy-based mapping where high-demand resources "glow" based on real-time request density—the system transforms static service directories into a living, proactive intelligence framework.
 
 ##  Key Technical Pillars
 
